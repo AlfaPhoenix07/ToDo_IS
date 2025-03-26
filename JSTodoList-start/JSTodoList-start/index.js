@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function (){
-    const title = document.getElementById('tiltle');
+    const title = document.getElementById('title');
     const description = document.getElementById('description');
     const btn = document.getElementById('add');
 
