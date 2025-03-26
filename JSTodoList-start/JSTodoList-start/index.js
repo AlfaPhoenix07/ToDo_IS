@@ -1,4 +1,10 @@
-const btn = document.getElementById('add');
-btn.addEventListener('click', function (){
-    console.log('click');
+document.addEventListener('DOMContentLoaded', function (){
+    const title = document.getElementById('tiltle');
+    const description = document.getElementById('description');
+    const btn = document.getElementById('add');
+
+    btn.onclick = function (){
+        console.log('Title:', title.value);
+        console.log('Description:', description.value);
+    }
 })
